@@ -57,6 +57,10 @@ header h2 {
   top: 180px;
   left: 60px;
 }
+header h2:hover {
+  color: rgb(62, 244, 6);
+  transition: 0.5s;
+}
 
 .furniture {
   height: 100vh;
@@ -69,7 +73,7 @@ header h2 {
   font-size: 50px;
   text-align: center;
   margin-top: 15px;
-  color: teal;
+  color: rgb(9, 255, 0);
 }
 
 .furniture .ferniture-item .furniture-1 {
@@ -78,14 +82,17 @@ header h2 {
   position: absolute;
   top: 50px;
   left: 350px;
-  /* border: 1px solid black; */
 }
-
 .furniture-1-desc {
   position: absolute;
   top: 265px;
   left: 440px;
   color: rgb(103, 3, 103);
+}
+.furniture-1-desc:hover {
+  font-size: 30px;
+  color: rgb(250, 1, 1);
+  transition: 0.3s;
 }
 
 .furniture .ferniture-item .furniture-2 {
@@ -94,48 +101,91 @@ header h2 {
   position: absolute;
   top: 180px;
   left: 160px;
-  /* border: 1px solid black; */
 }
-
 .furniture-2-desc {
   position: absolute;
   top: 350px;
-  left: 220px;
+  left: 204px;
   color: rgb(244, 8, 102);
 }
+.furniture-2-desc:hover {
+  font-size: 25px;
+  color: rgb(1, 55, 250);
+  transition: 0.3s;
+}
+
 .furniture .ferniture-item .furniture-3 {
   height: 250px;
   width: 250px;
   position: absolute;
-  top: 400px;
-  left: 250px;
-
-  /* border: 1px solid black; */
+  top: 360px;
+  left: 280px;
 }
+.furniture-3-desc {
+  position: absolute;
+  top: 615px;
+  left: 370px;
+  color: rgb(3, 78, 78);
+}
+.furniture-3-desc:hover {
+  font-size: 30px;
+  color: rgb(61, 195, 4);
+  transition: 0.3s;
+}
+
 .furniture .ferniture-item .furniture-4 {
   height: 250px;
   width: 250px;
   position: absolute;
   top: 70px;
   right: 310px;
-
-  /* border: 1px solid black; */
 }
+.furniture-4-desc {
+  position: absolute;
+  top: 555px;
+  left: 630px;
+  color: rgb(5, 5, 5);
+}
+.furniture-4-desc:hover {
+  font-size: 30px;
+  color: rgb(7, 147, 129);
+  transition: 0.3s;
+}
+
 .furniture .ferniture-item .furniture-5 {
   height: 250px;
   width: 250px;
   position: absolute;
   top: 300px;
   right: 540px;
-
-  /* border: 1px solid black; */
 }
+.furniture-5-desc {
+  position: absolute;
+  top: 290px;
+  right: 410px;
+  color: rgb(10, 21, 233);
+}
+.furniture-5-desc:hover {
+  font-size: 30px;
+  color: rgb(117, 119, 18);
+  transition: 0.3s;
+}
+
 .furniture .ferniture-item .furniture-6 {
   height: 180px;
   width: 250px;
   position: absolute;
   top: 400px;
   right: 180px;
-
-  /* border: 1px solid black; */
+}
+.furniture-6-desc {
+  position: absolute;
+  top: 600px;
+  right: 270px;
+  color: rgb(5, 167, 8);
+}
+.furniture-6-desc:hover {
+  font-size: 30px;
+  color: rgb(4, 17, 136);
+  transition: 0.3s;
 }
