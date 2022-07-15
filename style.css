@@ -189,3 +189,82 @@ header h2:hover {
   color: rgb(4, 17, 136);
   transition: 0.3s;
 }
+/* set item start */
+.set-item1 {
+  margin-top: 50px;
+}
+
+.set-item1 .set-item-tittle {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 5px dotted red;
+  width: 550px;
+  margin: 0 auto;
+  font-family: "Courgette", cursive;
+  color: rgb(4, 193, 214);
+}
+
+.furniture-set1 {
+  display: flex;
+  position: relative;
+  margin: 40px;
+}
+
+.furniture-set1-img {
+  width: 700px;
+  height: 500px;
+}
+.img-code {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.img-code:hover {
+  color: rgb(0, 30, 255);
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.furniture-set1-desc {
+  margin-left: 40px;
+}
+
+.furniture-set1-desc-tittle {
+  font-family: "Albert Sans", sans-serif;
+  font-size: 27px;
+  opacity: 0.7;
+}
+.furniture-set1-desc-tk {
+  color: rgb(238, 5, 5);
+  margin: 13px 0;
+}
+.furniture-set1-desc .availability {
+  margin-top: 14px;
+  margin-bottom: 35px;
+}
+.furniture-set1-desc .availability span {
+  color: crimson;
+  font-weight: bold;
+}
+.furniture-set1-desc .febric {
+  margin-bottom: 25px;
+}
+.furniture-set1-desc .radio-color input {
+  margin: 15px 0;
+}
+.furniture-set1-desc .radio-color .bg-red {
+  padding: 0 30px;
+  margin: 0 5px;
+  background-color: red;
+  display: inline;
+}
+.furniture-set1-desc .radio-color .bg-green {
+  padding: 0 30px;
+  margin: 0 5px;
+  background-color: green;
+  display: inline;
+}
+.furniture-set1-desc .delivery {
+  margin: 25px 0;
+  opacity: 0.8;
+}
